@@ -6,28 +6,28 @@
       "value": "centralus"
     },
     "targetVnetResourceId": {
-      "value": "<cluster-spoke-vnet-resource-id>"
+      "value": "/subscriptions/d141feb7-4efa-4ea4-bd01-5aeeedc8241b/resourceGroups/rg-enterprise-networking-spokes/providers/Microsoft.Network/virtualNetworks/vnet-hub-spoke-BU0001A0042-04"
     },
     "appInstanceId": {
       "value": "04"
     },
     "clusterAdminAadGroupObjectId": {
-      "value": "<azure-ad-aks-admin-group-object-id>"
+      "value": "da30e033-a9e4-433f-bff0-4aa85bbb7012"
     },
     "k8sControlPlaneAuthorizationTenantId": {
-      "value": "<tenant-id-with-user-admin-permissions>"
+      "value": "90a8229b-1514-47f2-93a9-6b8b3cf3e0c3"
     },
     "clusterInternalLoadBalancerIpAddress": {
       "value": "10.244.4.4"
     },
     "logAnalyticsWorkspaceId": {
-      "value": "<log-analytics-workspace-id>"
+      "value": "/subscriptions/d141feb7-4efa-4ea4-bd01-5aeeedc8241b/resourceGroups/rg-bu0001a0042-shared/providers/Microsoft.OperationalInsights/workspaces/la-idfwtue52y77c"
     },
     "containerRegistryId": {
-      "value": "<container-registry-id>"
+      "value": "/subscriptions/d141feb7-4efa-4ea4-bd01-5aeeedc8241b/resourceGroups/rg-bu0001a0042-shared/providers/Microsoft.ContainerRegistry/registries/acraksidfwtue52y77c"
     },
     "gitOpsBootstrappingRepoHttpsUrl": {
-      "value": "https://github.com/<your-github-org>/aks-baseline-multi-region"
+      "value": "https://github.com/EmilMunksoe/aks-baseline-multi-region"
     },
     "gitOpsBootstrappingRepoBranch": {
       "value": "main"
